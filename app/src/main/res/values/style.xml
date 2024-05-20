@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.InvoiceManager" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary branding color -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary branding color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here -->
+    </style>
+
+    <!-- Define BlackRectButton style -->
+    <style name="BlackRectButton">
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
